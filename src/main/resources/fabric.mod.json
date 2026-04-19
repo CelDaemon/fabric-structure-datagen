@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "structure-datagen",
+	"version": "${version}",
+	"name": "Structure Datagen",
+	"description": "A simple example for generating structures using datagen.",
+	"authors": [
+		"CelDaemon"
+	],
+	"contact": {
+		"homepage": "https://github.com/CelDaemon/fabric-structure-datagen",
+		"sources": "https://github.com/CelDaemon/fabric-structure-datagen"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/structure-datagen/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-datagen": [
+			"net.voidgroup.proto.structuredatagen.datagen.StructureDatagenPrototypeDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
